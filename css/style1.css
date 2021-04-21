@@ -514,7 +514,7 @@ video{
 	transition: transform 0.5s ease;
 	}
 .box__button:hover, .box__button:focus, .box__button:active {
-	background: #273044 !important;
+	background: #929215 !important;
 	border-color: #fff !important;
 }
 .box__button:hover:before, .box__button:focus::before, .box__button:active::before {

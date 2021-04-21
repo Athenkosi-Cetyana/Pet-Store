@@ -58,7 +58,7 @@
     <label for="email"> Email</label>
     <input id="email" name="email" type="email" placeholder="dks@dundermifflin.com" required>
     <br>
-    <button type="submit" class="box__button">Submit Form</button>
+    <button type="submit" id="submit" class="box__button" onclick="mySubmit()">Submit Form</button>
   </form>
 
   <div class="container" style="align-content: center;">
@@ -86,6 +86,11 @@
     } else {
       x.className = "topnav";
     }
+  }
+  function mySubmit(){
+    var fullName = document.getElementById("name").value;
+    alert("Submited.\n Thank you, "+fullName+"!");
+    console.log
   }
 </script>  
 </html>
